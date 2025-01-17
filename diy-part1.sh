@@ -60,8 +60,10 @@ echo '=========Add OpenClash source OK!========='
 # echo '=========Add Haiibo source OK!========='
 
 echo '添加kenzok8 openwrt-package'
-sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+#sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+#sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
 echo '=========Add kenzok8 source OK!========='
 
 # echo '添加kenzok8 small-package'
