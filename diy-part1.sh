@@ -47,6 +47,11 @@ rm -rf package/lean/k3screenctrl
 git clone https://github.com/JE668/k3screenctrl_build.git package/lean/k3screenctrl/
 echo '=========Replace k3screen drive plug OK!========='
 
+echo '替换luci-theme-argon'
+rm -rf package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon/
+echo '=========Replace k3screen drive plug OK!========='
+
 echo '添加OpenClash'
 rm -rf package/lean/luci-app-openclash
 mkdir package/luci-app-openclash
