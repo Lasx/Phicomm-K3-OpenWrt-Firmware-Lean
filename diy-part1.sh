@@ -23,10 +23,10 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 echo 'src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
 echo '=========Add passwall source OK!========='
 
-echo '添加kenzok8 openwrt-package'
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-echo '=========Add kenzok8 source OK!========='
+# echo '添加kenzok8 openwrt-package'
+# echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+# echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+# echo '=========Add kenzok8 source OK!========='
 
 # echo '添加AdguardHome'
 # rm -rf feeds/kenzo/adguardhome
