@@ -23,10 +23,10 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 echo 'src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
 echo '=========Add passwall source OK!========='
 
-# echo '添加kenzok8 openwrt-package'
-# echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-# echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-# echo '=========Add kenzok8 source OK!========='
+echo '添加kenzok8 openwrt-package'
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+echo '=========Add kenzok8 source OK!========='
 
 # echo '添加AdguardHome'
 # rm -rf feeds/kenzo/adguardhome
@@ -47,10 +47,10 @@ rm -rf package/lean/k3screenctrl
 git clone https://github.com/JE668/k3screenctrl_build.git package/lean/k3screenctrl/
 echo '=========Replace k3screen drive plug OK!========='
 
-echo '替换luci-theme-argon'
-rm -rf package/lean/luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon/
-echo '=========Replace k3screen drive plug OK!========='
+# echo '替换luci-theme-argon'
+# rm -rf package/lean/luci-theme-argon
+# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon/
+# echo '=========Replace k3screen drive plug OK!========='
 
 echo '添加OpenClash'
 rm -rf package/lean/luci-app-openclash
